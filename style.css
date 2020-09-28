@@ -2,11 +2,14 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
+  
 }
 
 html,
 body,
 .wrapper {
+  background-color: #022340;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -21,6 +24,7 @@ body {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  
 }
 
 header {
@@ -30,8 +34,14 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+h1 {
+  color: #DCEAF2;
+
+}
+
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0rsiizrgkv2LjOWW5XTD1eDbfbbvZ5oJbfQ&usqp=CAU");
+  background-size:cover;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -74,11 +84,11 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color:#F2DAAC;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color:#022340;
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -98,6 +108,7 @@ button[disabled] {
 }
 
 #password {
+  background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -116,6 +127,8 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  color: #DCEAF2;
+
 }
 
 @media (max-width: 690px) {
@@ -126,7 +139,8 @@ button[disabled] {
   }
 
   #password {
-    font-size: 1rem;
+    font-size: 2rem;
+    color: #DCEAF2;
   }
 }
 
@@ -143,8 +157,9 @@ footer {
   width: 100%;
    text-align: center;
    margin-top: 20px;
-   color: #181613;
+   color: #F2C879;
 }
  a{
   font-size: small;
+  color: #F2C879;
 }

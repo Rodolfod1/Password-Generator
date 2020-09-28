@@ -15,14 +15,14 @@ function myascii(min,max){
 function writePassword() {
                                     // var password = generatePassword();                               
                                       //use "Number" to convert the string out of the prompt into a number 
-                                      a=Number(prompt("How many characters you need ?"));
+                                      a=Number(prompt("How many characters do you need ?", "Type number between 8 & 128"));
                                       if (a<8 || a>128){
                                         alert("Your password length must be between 8 and 128");}
                                         else{
                                                   // series of prompts to confirm password criteria 
-                                                b=confirm("Do you must include at least 1 numbers");  
-                                                c=confirm("Do you must include at least 1 Upper Case Letter?");
-                                                d=confirm("Do you must include at lease 1 Special character?");
+                                                b=confirm("Can your password include numbers?   Use Cancel for NO");  
+                                                c=confirm("Can your password include Upper-case letters?  Use Cancel for NO");
+                                                d=confirm("Can your password include Special Characters?  Use Cancel for NO");
                                                   /// calling my function of characters 
                                                   // using concatenate "concat" to link different sets of special characters 
                                                   var isNumber=myascii(48,57);
