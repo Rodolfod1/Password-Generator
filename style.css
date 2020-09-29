@@ -9,16 +9,19 @@
 html,
 body,
 .wrapper {
-  background-color: #022340;
+  /* background-color: #022340; */
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
-}
+    background: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
 
 .wrapper {
   padding-top: 30px;
@@ -40,12 +43,12 @@ h1 {
 }
 
 .card {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0rsiizrgkv2LjOWW5XTD1eDbfbbvZ5oJbfQ&usqp=CAU");
-  background-size:cover;
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS0rsiizrgkv2LjOWW5XTD1eDbfbbvZ5oJbfQ&usqp=CAU");
+  background-size:cover; */
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color:#736D5D;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
